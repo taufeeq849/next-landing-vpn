@@ -44,7 +44,7 @@ const Process = () => {
   return (
     <div
       className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
-      id="pricing"
+      id="how-it-works"
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
@@ -68,7 +68,7 @@ const Process = () => {
           </div>
         </div>
 
-        <div className="flex flex-col w-full my-16" id="testimoni">
+        <div className="flex flex-col w-full my-16" id="testimonials">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
             Trusted by Thousands of Product Lovers{" "}
           </h3>

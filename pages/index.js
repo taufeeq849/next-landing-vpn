@@ -3,7 +3,7 @@ import Feature from "../components/Feature";
 import Process from "../components/Process";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
-import Testimoni from "../components/Testimoni";
+import Testimony from "../components/Testimoni";
 import Testimonial from "../components/Testimonials";
 
 export default function Home() {

@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import Testimoni from "./Testimoni";
+import Testimony from "./Testimoni";
 import ButtonPrimary from "./misc/ButtonPrimary";
 import ButtonOutline from "./misc/ButtonOutline.";
 import Maps from "../public/assets/HugeGlobal.svg";
 
 const Testimonial = () => (
-  <div className="flex flex-col w-full my-16" id="testimoni">
+  <div className="flex flex-col w-full my-16" id="testimonials">
     <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
       Trusted by Thousands of Happy Customer{" "}
     </h3>
@@ -15,7 +15,7 @@ const Testimonial = () => (
       pleasure when using this crazy feature.
     </p>
     <div className="w-full flex flex-col py-12">
-      <Testimoni />
+      <Testimony />
     </div>
     <div className="relative w-full mt-16">
       <div className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-white-500">

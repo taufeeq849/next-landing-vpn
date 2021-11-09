@@ -9,13 +9,13 @@ const Hero = ({
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
-      name: "Locations",
+      name: "Brands",
       number: "20",
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      name: "Server",
-      number: "50",
+      name: "Boxes Delivered",
+      number: "200",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
   ],
@@ -25,28 +25,29 @@ const Hero = ({
       <div className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16 ">
         <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
           <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-            Want anything to be easy with <strong>LaslesVPN</strong>.
+            Find products you <strong>love</strong>.
           </h1>
           <p className="text-black-500 mt-4 mb-6">
-            Provide a network for all your needs with ease and fun using
-            LaslesVPN discover interesting features from us.
+            Finding new products is difficult. Cafeteria matches you with
+            products you love, for free. All you have to do is tell what us what
+            you think.
           </p>
-          <ButtonPrimary>Get Started</ButtonPrimary>
+          <ButtonPrimary>Find products</ButtonPrimary>
         </div>
         <div className="flex w-full">
           <div className="h-full w-full">
             <Image
-              src="/assets/Illustration1.png"
-              alt="VPN Illustrasi"
+              src="/assets/header.jpg"
+              alt="Header text"
               quality={100}
-              width={612}
-              height={383}
+              width={500}
+              height={380}
               layout="responsive"
             />
           </div>
         </div>
       </div>
-      <div className="relative w-full flex">
+      {/*   <div className="relative w-full flex">
         <div className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
           {listUser.map((listUsers, index) => (
             <div
@@ -71,7 +72,7 @@ const Hero = ({
           className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-64 sm:h-48 top-0 mt-8 mx-auto left-0 right-0"
           style={{ filter: "blur(114px)" }}
         ></div>
-      </div>
+      </div> */}
     </div>
   );
 };

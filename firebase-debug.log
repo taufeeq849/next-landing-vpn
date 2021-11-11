@@ -1,0 +1,21 @@
+[debug] [2021-11-10T13:07:11.306Z] ----------------------------------------------------------------------
+[debug] [2021-11-10T13:07:11.309Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\taufe\AppData\Roaming\npm\pnpm-global\4\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-10T13:07:11.309Z] CLI Version:   9.16.2
+[debug] [2021-11-10T13:07:11.309Z] Platform:      win32
+[debug] [2021-11-10T13:07:11.309Z] Node Version:  v12.18.2
+[debug] [2021-11-10T13:07:11.310Z] Time:          Wed Nov 10 2021 15:07:11 GMT+0200 (South Africa Standard Time)
+[debug] [2021-11-10T13:07:11.310Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-10T13:07:11.321Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-10T13:07:11.321Z] > authorizing via signed-in user (taufeeq849@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\taufe\Desktop\Coding_Projects\Websites\cafeteria\cafeteria-next-js
+
